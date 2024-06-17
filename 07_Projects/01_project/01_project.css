@@ -1,0 +1,51 @@
+#grey{
+    background-color: grey;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: 2px solid;
+}
+#white{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: 2px solid;
+}
+#yellow{
+    background-color: yellow;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: 2px solid;
+}
+#blue{
+    background-color: blue;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: 2px solid;
+}
+
+.nav{
+    background-color: rgb(70, 69, 69);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    a{
+        margin-left: 400px;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.canvas{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   span{
+    display: flex;
+    flex-direction: column;
+   }
+}

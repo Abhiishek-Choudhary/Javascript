@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    // setTimeout(function(){
+    //     console.log("Abhishek")
+    // }, 3000)
+
+    // const sayAbhishek = function(){
+    //     console.log("Abhishek");
+    // }
+
+    const changeText = function(){document.querySelector('h1').innerHTML = "Javascript tutorial"}
+
+    const changeMe = setTimeout(changeText, 3000)
+
+    //clear timeout
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeMe);
+        console.log("stopped");
+    })
+</script>
+</html>
